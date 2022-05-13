@@ -16,12 +16,12 @@ In this session, you'll be refine a provided training script using ``hyperparame
 
 **Hyperparameter Sweep**
 1. Do the prep.
-2. Create a file (.py or .ipynb) under User/username/azureml-examples/sdk/jobs/single-step/lightgbm/iris (please do not open any other notebook file in the folder). 
+2. Create a file (.py or .ipynb) under Users/username/azureml-examples/sdk/jobs/single-step/lightgbm/iris (please do not open any other notebook file in the folder). 
 3. Copy and paste the provided script below into the file you created.
 4. Use the provided Hyperparameter.md as a reference to create and submit a hyperparameter sweep job.
 
 **Pipeline**
-1. Create a file (ex. .py or .ipynb) under User/username/azureml-examples/sdk/jobs/pipelines/1c_pipeline_with_hyperparameter_sweep
+1. Create a file (ex. .py or .ipynb) under Users/username/azureml-examples/sdk/jobs/pipelines/1c_pipeline_with_hyperparameter_sweep
 2. Copy & paste the script you created from the previous task ("create and submit a hyperparameter job") and use the provided Pipeline document to create a 2-step pipeline job.
 
 ## Prep ##
