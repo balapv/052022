@@ -90,4 +90,4 @@ ml_client.online_deployments.begin_create_or_update(
 ```
 
 ## Session Survey ##
-Your moderator will let you know when to take [the survey] (https://forms.office.com/r/XQYHxqykvS )
+Your moderator will let you know when to take [the survey](https://forms.office.com/r/XQYHxqykvS )
