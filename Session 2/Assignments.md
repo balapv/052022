@@ -62,7 +62,14 @@ except Exception:
 #define the command
 command_job=command(
     code='./src',
-    inputs={'iris_csv':Input(type='uri_file', path='https://azuremlexamples.blob.core.windows.net/datasets/iris.csv')},
+    inputs={
+        'iris_csv':Input(
+            type='uri_file', 
+            path='https://azuremlexamples.blob.core.windows.net/datasets/iris.csv'
+        ),
+        "learning_rate": 0.9,
+        "boosting": "gbdt",
+    },
     command = 'python main.py --iris-csv ${{inputs.iris_csv}}',
     environment='AzureML-lightgbm-3.2-ubuntu18.04-py37-cpu@latest',
     compute='cpu-cluster',
